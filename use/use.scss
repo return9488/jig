@@ -1,0 +1,71 @@
+//字体
+$fontColor: #a7a7a5;
+//橘红
+$bckColor:#fd5238;
+.nav {
+    width: 1200px;
+    height: 170px;
+    margin: auto;
+    h1 {
+        text-align: center;
+        padding: 46px 0;
+    }
+    .nav-fen {
+        width: 100%;
+        height: 34px;
+        .nav-fen-w {
+            width: 440px;
+            height: 100%;
+            margin: auto;
+            ul {
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+                margin: auto;
+                li {
+                    text-align: center;
+                    width: 144px;
+                    height: 100%;
+                    color: $fontColor;
+                    cursor: pointer;
+                    em:hover {
+                        color: $bckColor;
+                    }
+                }
+                li:first-of-type {
+                    border-bottom: 2px solid $bckColor;
+                    color: $bckColor;
+                }
+            }
+        }
+    }
+}
+
+.nav1 {
+    width: 100%;
+    border-top: 1px solid $fontColor;
+    .nav1-w {
+        width: 880px;
+        height: 50px;
+        margin: auto;
+        ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            li {
+                text-align: center;
+                width: 144px;
+                height: 100%;
+                color: $fontColor;
+                cursor: pointer;
+                line-height: 50px;
+                em:hover {
+                    color: black;
+                }
+            }
+            li:first-of-type {
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,218 @@
+$bckColor:#f7f7f7;
+$butColor:#fe5341;
+.main-bckColor {
+    width: 100%;
+    background-color: $bckColor;
+    padding: 30px 0;
+    .main {
+        width: 1200px;
+        height: 784px;
+        margin: auto;
+        border: 1px solid #eaeaea;
+        border-radius: 9px;
+        background-color: white;
+        position: relative;
+        .main-title {
+            margin-top: 30px;
+            width: 100%;
+            height: 30px;
+            font-size: 25px;
+            line-height: 30px;
+            .main-title-Lbox {
+                height: 100%;
+                width: 8px;
+                background-color: $butColor;
+                float: left;
+            }
+        }
+        .main-w {
+            width: 500px;
+            height: 550px;
+            margin: auto;
+            margin-top: 60px;
+            ul {
+                width: 100%;
+                li {
+                    width: 100%;
+                    height: 52px;
+                    margin-top: 26px;
+                }
+                li:nth-of-type(1) input {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: $bckColor;
+                    border: 1px solid #eaeaea;
+                }
+                li:nth-of-type(2) {
+                    display: flex;
+                    justify-content: space-between;
+                    .yz input {
+                        width: 137%;
+                        height: 100%;
+                        border-radius: 8px;
+                        font-size: 18px;
+                        outline: none;
+                        background-color: $bckColor;
+                        border: 1px solid #eaeaea;
+                    }
+                    .yz-Img {
+                        width: 33%;
+                        height: 100%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                li:nth-of-type(3) input:first-of-type {
+                    height: 100%;
+                    width: 60%;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: $bckColor;
+                    border: 1px solid #eaeaea;
+                }
+                li:nth-of-type(3) input:last-of-type {
+                    height: 100%;
+                    width: 30%;
+                    margin-left: 42px;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: transparent;
+                    border: 1px solid #eaeaea;
+                    color: #757575;
+                }
+                li:nth-of-type(4) input {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: $bckColor;
+                    border: 1px solid #eaeaea;
+                }
+                li:nth-of-type(5) input {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: $bckColor;
+                    border: 1px solid #eaeaea;
+                }
+                li:nth-of-type(6) input {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: $bckColor;
+                    border: 1px solid #eaeaea;
+                }
+                li:nth-of-type(7) input {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                    font-size: 18px;
+                    outline: none;
+                    background-color: $bckColor;
+                    border: 1px solid #eaeaea;
+                    color: white;
+                    background-color: #fe5341;
+                }
+            }
+        }
+        .main-w-yanZheng {
+            width: 100px;
+            height: 450px;
+            position: absolute;
+            top: 134px;
+            right: 240px;
+            li {
+                width: 100%;
+                height: 25px;
+                margin-top: 54px;
+                .main-w-yanZheng-Imgnull {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgerr {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgok {
+                    color: #41B91E;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgnull1 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgerr1 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgok1 {
+                    color: #41B91E;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgnull2 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgerr2 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgok2 {
+                    color: #41B91E;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgnull3 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgerr3 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgok3 {
+                    color: #41B91E;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgnull4 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgerr4 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgok4 {
+                    color: #41B91E;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgnull5 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgerr5 {
+                    color: red;
+                    display: none;
+                }
+                .main-w-yanZheng-Imgok5 {
+                    color: #41B91E;
+                    display: none;
+                }
+            }
+            li:first-of-type {
+                margin: 0;
+            }
+        }
+    }
+}
